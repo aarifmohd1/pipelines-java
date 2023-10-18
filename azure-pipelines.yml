@@ -12,7 +12,7 @@ steps:
   # Maven v3
   # Build, test, and deploy with Apache Maven.
   - task: Maven@3
-      inputs:
+    inputs:
         mavenPOMFile: 'pom.xml' 
         # string. Required. Maven POM file. Default: pom.xml.
         #goals: 'package' # string. Goal(s). Default: package.
